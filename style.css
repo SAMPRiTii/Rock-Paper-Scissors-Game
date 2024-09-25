@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+    
+}
+
+#game-title {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(28, 38, 61);
+    color: white;
+    padding-top: 20px;
+}
+
+#icon-container {
+    margin-top: 100px;
+}
+
+#Rock {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: none;
+    border: 4px solid white;
+    background-image: url(/icon-images/Rock-icon.jpeg);
+    background-size: cover;
+}
+
+#Rock:hover {
+    border: 4px solid black;
+}
+
+#Paper {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: none;
+    border: 4px solid white;
+    background-image: url(/icon-images/Paper_icon.jpeg);
+    background-size: cover;
+}
+
+#Paper:hover {
+    border: 4px solid black;
+}
+
+#Scissors {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: none;
+    border: 4px solid white;
+    background-image: url(/icon-images/Scissor-icon.jpeg);
+    background-size: cover;
+}
+
+#Scissors:hover {
+    border: 4px solid black;
+}
+
+
+#score {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#your-score-container {
+    padding-left: 350px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#computer-score-container {
+    padding-right: 350px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#your-score-count {
+    font-size: 4rem;
+}
+
+#computer-score-count {
+    font-size: 4rem;
+}
+
+.you-computer-text {
+    font-size: 1.5rem;
+    
+}
+
+#msg {
+    height: 60px;
+    width: 500px;
+    background-color: rgb(36, 35, 35);
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 2rem;
+    box-shadow: 0 0 1rem rgba(105, 104, 104, 0.293);
+
+}
+
